@@ -38,10 +38,11 @@ public class Task1_5 {
          * 81 |
          */
         for (int s = 1; s <= 9; s++) {
+            System.out.print(s + "|");
             for (int j = 1; j <= 9; j++) {
-                System.out.print(s * j + " |");
+                System.out.print(s * j + " ");
             }
-            System.out.println();
+            System.out.println("");
         }
 
     }
